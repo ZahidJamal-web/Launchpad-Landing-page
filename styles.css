@@ -1,0 +1,224 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    color: white;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #2b2d42;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Login Page Styles */
+.login-section {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.login-section form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-section .btn-primary {
+    background-color: #ff3b44;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login-section .btn-primary:hover {
+    background-color: #ff6b6b;
+}
+
+/* LaunchPad Page Styles */
+.hero {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    color:white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero .btn-primary {
+    background-color: #ff3b44;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.hero .btn-primary:hover{
+    background-color: white;
+    color: #9c27b0;
+}
+
+.hero .btn-secondary {
+    background-color: #9c27b0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.hero .btn-secondary:hover{
+    background-color: white;
+    color: #ff3b44;
+}
+
+strong{
+    color: rgb(56, 56, 241);
+}
+
+li{
+    list-style-type: none;
+    align-items: baseline;
+}
+
+.features, .contact {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.features .feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    background-color: #ff3b44;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FAQ section *//* Basic FAQ Styling */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Hidden Section Styling */
+.hidden {
+    display: none;
+}
+
+/* Scroll Arrow Button */
+.scroll-arrow {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.scroll-arrow button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.scroll-arrow button:hover {
+    background-color: #6a11cb;
+}
+
+
+footer {
+    background-color: #2b2d42;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
